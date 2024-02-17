@@ -1,0 +1,26 @@
+button[type=button]{
+	padding:8px;
+	margin: 3px;
+	color: white;
+	background-color: #4F7942;
+	border: none;
+	border-radius: 12px;
+	cursor: pointer;
+}
+
+input[type=text]{
+	height: 30px;
+	width: 260px;
+	margin-top: 6px;
+	resize: none;
+	border: none;
+	font-family: georgia;
+}
+
+button{
+	color: white;
+	background-color: #953553;
+	border: none;
+	border-radius: 12px;
+	cursor: pointer;
+}

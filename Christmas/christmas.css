@@ -1,0 +1,160 @@
+body {
+  background-color: #DC143C;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: 4px;
+  border-color: #D2042D;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: "Lucida Handwriting";
+}
+
+h2{
+  color: white;
+  text-align: center;	
+  font-family: georgia;
+}
+
+.header {
+  background-color: #D2042D;
+  padding: 13px;
+  text-align: center;
+}
+  
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 50%;
+}
+
+p {
+  font-family: georgia;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  padding: 5px;
+}
+
+/*Navagation Bar*/
+
+ul {
+	text-align: center;
+}
+li{
+	display: inline;
+}
+
+li a {
+  color:white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-family: georgia;
+}
+
+li a:hover:not(.active) {
+  background-color: #D70040;
+}
+
+/*First Dropdown menu*/
+
+.dropbtn {
+  background-color: #D2042D;
+  color: white;
+  font-size: 16px;
+  border: none;
+  font-family: georgia;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #C41E3A;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 10px 13px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #DE3163;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #D70040;}
+
+
+/*Second Dropdown menu*/
+
+.dropbtn2 {
+  background-color: #D2042D;
+  color: white;
+  font-size: 16px;
+  border: none;
+  font-family: georgia;
+}
+
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #C41E3A;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content2 a {
+  color: white;
+  padding: 10px 13px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content2 a:hover {background-color: #DE3163;}
+
+.dropdown2:hover .dropdown-content {display: block;}
+
+.dropdown2:hover .dropbtn {background-color: #D70040;}
+
+
+/*Christmas List Page*/
+
+.addItem{
+	width: 5px;
+	border-radius: 12px;
+	
+}
+
+.container{
+	text-align: center;
+}
+
+.paragraph-styling{
+	margin: 5px;
+}
+
+/*Recipes and Decarations Lists*/
+
+ol {
+	text-align: center;
+}
